@@ -1,4 +1,5 @@
-{
+const photos = [
+  {
   "files": [
     {
       "size": "fullres",
@@ -11,3 +12,4 @@
   "camera": "Olympus Tough TG-5",
   "settings": false
 }
+];
