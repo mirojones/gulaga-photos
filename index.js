@@ -5,6 +5,3 @@ var noOfPhotos = 100;
 titles.forEach(title => {
   title.textContent = noOfPhotos + ' Views of Gulaga';
 });
-
-// Images...
-alert("hello");
