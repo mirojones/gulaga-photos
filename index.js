@@ -6,4 +6,7 @@ titles.forEach(title => {
   title.textContent = noOfPhotos + ' Views of Gulaga';
 });
 
-// Create gallery...
+// Images...
+const photoData = JSON.parse(data);
+
+alert(photoData[0].coords);
