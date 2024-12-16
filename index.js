@@ -10,10 +10,3 @@ titles.forEach(title => {
 });
 
 // Image gallery...
-gFigs.forEach(gFig => {
-  var gImg = gFig.id + ' img',
-    gOpen = gFig.id + ' figure menu li .g-btn-open',
-    gDownload = gFig.id + ' figure menu li .g-btn-download';
-  gOpen.href = gImg.src;
-  gDownload.href = gImg.src;
-});
