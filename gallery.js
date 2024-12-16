@@ -1,2 +1,2 @@
-import data from './photos.json' assert { type: 'json' };
+import data from './photo-data.json' assert { type: 'json' };
 console.log(data);
