@@ -42,3 +42,6 @@ photos.forEach(photo => {
       </table>
     </div>
   </figcaption>`;
+  gFigs.appendChild(gFig);
+  gFig.innerHTML = gFigCont;
+});
