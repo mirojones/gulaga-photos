@@ -9,4 +9,4 @@ titles.forEach(title => {
 // Images...
 const photoData = JSON.parse(data);
 
-alert(photoData[0].coords);
+alert(photoData[0].coords + 'hello');
