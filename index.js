@@ -8,6 +8,5 @@ var noOfPhotos = 1;
 titles.forEach(title => {
   title.textContent = noOfPhotos + ' Views of Gulaga';
 });
-
-// Image gallery...
+alert("hello");
 alert(images[0]["coords"]);
