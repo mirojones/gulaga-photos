@@ -10,3 +10,4 @@ titles.forEach(title => {
 });
 
 // Image gallery...
+alert(images[0]["coords"]);
