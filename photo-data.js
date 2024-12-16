@@ -1,4 +1,4 @@
-const photoData = '{
+{
   "files": [
     {
       "size": "fullres",
@@ -10,4 +10,4 @@ const photoData = '{
   "datetime": "2024-09-23T05:52:00",
   "camera": "Olympus Tough TG-5",
   "settings": false
-}';
+}
