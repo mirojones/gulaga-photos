@@ -17,7 +17,7 @@ photos.forEach(element => {
   const gFig = document.createElement('figure'),
     gFigURL = element["url"],
     gFigAdr = element["address"],
-    gFigDT = element["datetime"],
+    gFigDT = new Date(element["datetime"]).toString(),
     gFigCont = `<img src="${gFigURL}">
   <figcaption>
     <button>Close</button>
