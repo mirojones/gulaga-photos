@@ -20,8 +20,9 @@ photos.forEach(element => {
     gFigDT = element["datetime"],
     gFigDTformat = new Date(gFigDT).toString(),
     gFigCam = element["camera"],
-    gFigSet = element["settings"],
-    gFigCont = `<img src="${gFigURL}">
+    gFigSet = element["settings"];
+  if(gFigSet == false){gFigSet = "unknown"};
+  const gFigCont = `<img src="${gFigURL}">
   <figcaption>
     <button>Close</button>
     <menu>
