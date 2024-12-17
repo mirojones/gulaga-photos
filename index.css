@@ -5,3 +5,8 @@ body, body * {
 header {
   text-align: center;
 }
+
+.ico-close::before {
+  content: "\1F5D9";
+  font-family: "Noto Sans Symbols 2";
+}
