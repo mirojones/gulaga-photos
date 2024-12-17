@@ -27,6 +27,7 @@ if (urlParams.has('dt')) {
 
 photos.forEach(element => {
   const gFig = document.createElement('figure'),
+    gFigId = element["id"],
     gFigURL = element["url"],
     gFigAdr = element["address"],
     gFigDT = element["datetime"],
