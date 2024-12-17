@@ -89,3 +89,12 @@ function closeAbout(id) {
 }
 
 // Navigation...
+function openG() {
+  m.style.display = "none";
+  g.style.display = "block";
+}
+
+function openM() {
+  g.style.display = "none";
+  m.style.display = "block";
+}
