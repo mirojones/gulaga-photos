@@ -33,16 +33,16 @@ photos.forEach(element => {
     gFigDTformat = new Date(gFigDT).toLocaleString(dateFormat),
     gFigCam = element["camera"],
     gFigSet = element["settings"] ? element["settings"] : "unknown";
-  const gFigCont = `<img src="${gFigURL}">
+  const gFigCont = `<button onclick="openCap()"><img src="${gFigURL}"></button>
   <figcaption>
-    <button>Close</button>
+    <button onclick="closeCap()">Close</button>
     <menu>
       <li><a href="${gFigURL}" target="_blank">Open in full</a></li>
       <li><a href="${gFigURL}" download>Download</a></li>
-      <li><button>About &amp; licence</button></li>
+      <li><button onclick="openAbout()">About &amp; licence</button></li>
     </menu>
     <div>
-      <button>Close</button>
+      <button onclick="closeAbout()">Close</button>
       <table>
         <tr>
           <th>Location</th>
