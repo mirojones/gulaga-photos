@@ -11,9 +11,7 @@ titles.forEach(title => {
 });
 
 // Images...
-
-alert("hello");
-alert(photos[0]["coords"]);
+// alert(photos[0]["coords"]);
 
 photos.forEach(index => {
   const gFig = document.createElment('figure'),
