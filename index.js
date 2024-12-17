@@ -66,7 +66,7 @@ photos.forEach(element => {
   </figcaption>`;
   gFigs.appendChild(gFig);
   gFig.innerHTML = gFigCont;
-  gFig.id = gFigId;
+  gFig.setAttribute("id", gFigId);
 });
 
 function openCap(id) {
