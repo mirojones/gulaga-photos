@@ -43,7 +43,7 @@ photos.forEach(element => {
       <li><button onclick="openAbout('${gFigId}')">About &amp; licence</button></li>
     </menu>
     <div class="g-fig-about" style="display:none;">
-      <button onclick="closeAbout('${gFigId}')">Close</button>
+      <button onclick="closeAbout('${gFigId}')">Back</button>
       <table>
         <tr>
           <th>Location</th>
