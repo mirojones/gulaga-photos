@@ -13,34 +13,7 @@ titles.forEach(title => {
 });
 
 // Query parameters...
-function insertParam(key, value) {
-    key = encodeURIComponent(key);
-    value = encodeURIComponent(value);
-
-    // kvp looks like ['key1=value1', 'key2=value2', ...]
-    var kvp = document.location.search.substr(1).split('&');
-    let i=0;
-
-    for(; i<kvp.length; i++){
-        if (kvp[i].startsWith(key + '=')) {
-            let pair = kvp[i].split('=');
-            pair[1] = value;
-            kvp[i] = pair.join('=');
-            break;
-        }
-    }
-
-    if(i >= kvp.length){
-        kvp[kvp.length] = [key,value].join('=');
-    }
-
-    // can return this or...
-    let params = kvp.join('&');
-
-    // reload page with new params
-    document.location.search = params;
-}
-
+/* add parameter to url */function insertParam(t,i){t=encodeURIComponent(t),i=encodeURIComponent(i);var n=document.location.search.substr(1).split("&");let e=0;for(;e<n.length;e++)if(n[e].startsWith(t+"=")){let l=n[e].split("=");l[1]=i,n[e]=l.join("=");break}e>=n.length&&(n[n.length]=[t,i].join("="));let a=n.join("&");document.location.search=a}
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
