@@ -18,7 +18,7 @@ photos.forEach(element => {
     gFigURL = element["url"],
     gFigAdr = element["address"],
     gFigDT = element["datetime"],
-    gFigDTformat = new Date(gFigDT).toString(),
+    gFigDTformat = new Date(gFigDT).toLocaleString('en-AU'),
     gFigCam = element["camera"],
     gFigSet = element["settings"] ? element["settings"] : "unknown";
   const gFigCont = `<img src="${gFigURL}">
