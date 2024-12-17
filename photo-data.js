@@ -1,6 +1,6 @@
 var photos = [
   {
-    "no": "a",
+    "id": "p1",
     "url": "images/fullres/bermagui-point_23-09-24.jpeg",
     "coords": "-36.4221452, 150.0747234",
     "address": "Sunset Point, Bermagui",
