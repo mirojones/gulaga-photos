@@ -1,10 +1,5 @@
 const photos = [{
-  "files": [
-    {
-      "size": "fullres",
-      "url": "images/fullres/bermagui-point_23-09-24.jpeg"
-    }
-  ],
+  "url": "images/fullres/bermagui-point_23-09-24.jpeg",
   "coords": "-36.4221452, 150.0747234",
   "address": "Sunset Point, Bermagui",
   "datetime": "2024-09-23T17:52:00",
