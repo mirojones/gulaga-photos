@@ -8,6 +8,7 @@ header {
 
 nav menu {
   list-style-type: none;
+  display: inline;
 }
 
 .ico {
