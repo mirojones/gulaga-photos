@@ -15,7 +15,7 @@ titles.forEach(title => {
 alert("hello");
 alert(photos[0]["coords"]);
 
-photos.forEach(photo => {
+photos.forEach(index => {
   const gFig = document.createElment('figure'),
     gFigURL = photo['url'],
     gFigAdr = photo['address'],
