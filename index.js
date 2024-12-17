@@ -68,3 +68,20 @@ photos.forEach(element => {
   gFig.innerHTML = gFigCont;
   gFig.id = gFigId;
 });
+
+function openCap(id) {
+  document.querySelector(`#${id} figcaption`).style.display = "block";
+  document.querySelector(`#${id} img`).style.display = "none";
+}
+function closeCap(id) {
+  document.querySelector(`#${id} figcaption`).style.display = "none";
+  document.querySelector(`#${id} img`).style.display = "block";
+}
+function openAbout(id) {
+  document.querySelector(`#${id} .g-fig-about`).style.display = "block";
+  document.querySelector(`#${id} .g-fig-btns`).style.display = "none";
+}
+function closeAbout(id) {
+  document.querySelector(`#${id} .g-fig-about`).style.display = "none";
+  document.querySelector(`#${id} .g-fig-btns`).style.display = "block";
+}
