@@ -18,11 +18,9 @@ nav menu li {
 .ico {
   font-style: normal;
 }
-
 .ico-close::before {
   content: "\1F5D9";
 }
-
 .ico-back::before {
   content: "\276E";
 }
