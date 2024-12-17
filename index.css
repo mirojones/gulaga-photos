@@ -6,6 +6,10 @@ header {
   text-align: center;
 }
 
+nav menu {
+  list-style-type: none;
+}
+
 .ico {
   font-style: normal;
 }
