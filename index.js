@@ -15,9 +15,9 @@ titles.forEach(title => {
 
 photos.forEach(index => {
   const gFig = document.createElement('figure'),
-    gFigURL = photos[index]['url'],
-    gFigAdr = photos[index]['address'],
-    gFigDT = photos[index]['datetime'],
+    gFigURL = photos[index]["url"],
+    gFigAdr = photos[index]["address"],
+    gFigDT = photos[index]["datetime"],
     gFigCont = `<img src="${gFigURL}">
   <figcaption>
     <button>Close</button>
