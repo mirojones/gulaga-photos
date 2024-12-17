@@ -1,7 +1,9 @@
-// DOM...
+// DOM and setup...
 
 const titles = document.querySelectorAll('.title'),
   gFigs = document.getElementById('g');
+
+var dateFormat = "en-AU";
 
 // Photo counter and title...
 var noOfPhotos = 1;
@@ -14,7 +16,9 @@ titles.forEach(title => {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const dateFormat = urlParams.get('dt');
+if (urlParams.has('dt')) {
+  dateFormat = urlParams.get('dt');
+}
 
 // Images...
 
