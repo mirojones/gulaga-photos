@@ -10,15 +10,20 @@ titles.forEach(title => {
   title.textContent = noOfPhotos + ' Views of Gulaga';
 });
 
+// Query parameters...
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const dateFormat = urlParams.get('dt');
+
 // Images...
-// alert(photos[0]["coords"]);
 
 photos.forEach(element => {
   const gFig = document.createElement('figure'),
     gFigURL = element["url"],
     gFigAdr = element["address"],
     gFigDT = element["datetime"],
-    gFigDTformat = new Date(gFigDT).toLocaleString('en-AU'),
+    gFigDTformat = new Date(gFigDT).toLocaleString(dateFormat),
     gFigCam = element["camera"],
     gFigSet = element["settings"] ? element["settings"] : "unknown";
   const gFigCont = `<img src="${gFigURL}">
