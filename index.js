@@ -77,7 +77,7 @@ function closeAllCap() {
   });
 }
 function openCap(id) {
-  closeAllCap
+  closeAllCap();
   document.querySelector(`#${id} figcaption`).style.display = "block";
   document.querySelector(`#${id} > button`).style.display = "none";
 }
