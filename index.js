@@ -35,14 +35,14 @@ photos.forEach(element => {
     gFigCam = element["camera"],
     gFigSet = element["settings"] ? element["settings"] : "unknown";
   const gFigCont = `<button onclick="openCap(${gFigId})"><img src="${gFigURL}"></button>
-  <figcaption>
+  <figcaption style="display:none;">
     <button onclick="closeCap(${gFigId})">Close</button>
     <menu class="g-fig-btns">
       <li><a href="${gFigURL}" target="_blank">Open in full</a></li>
       <li><a href="${gFigURL}" download>Download</a></li>
       <li><button onclick="openAbout(${gFigId})">About &amp; licence</button></li>
     </menu>
-    <div class="g-fig-about">
+    <div class="g-fig-about" style="display:none;">
       <button onclick="closeAbout(${gFigId})">Close</button>
       <table>
         <tr>
