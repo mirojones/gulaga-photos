@@ -6,6 +6,10 @@ header {
   text-align: center;
 }
 
+.ico {
+  font-style: normal;
+}
+
 .ico-close::before {
   content: "\1F5D9";
 }
