@@ -8,5 +8,8 @@ header {
 
 .ico-close::before {
   content: "\1F5D9";
-  font-family: "Noto Sans Symbols 2";
+}
+
+.ico-back::before {
+  content: "\1F519\FE0E";
 }
