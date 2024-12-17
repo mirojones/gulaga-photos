@@ -47,7 +47,7 @@ const urlParams = new URLSearchParams(queryString);
 if (urlParams.has('dt')) {
   dateFormat = urlParams.get('dt');
 } else {
-  insertParam('dt', 'en-AU');
+  insertParam('dt', dateFormat);
 }
 
 // Images...
