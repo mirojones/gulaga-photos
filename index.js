@@ -1,7 +1,7 @@
 // DOM...
 
 const titles = document.querySelectorAll('.title'),
-  gFigs = document.getElememtById('g');
+  gFigs = document.getElementById('g');
 
 // Photo counter and title...
 var noOfPhotos = 1;
