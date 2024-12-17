@@ -20,6 +20,7 @@ photos.forEach(element => {
     gFigDT = element["datetime"],
     gFigDTformat = new Date(gFigDT).toString(),
     gFigCam = element["camera"],
+    gFigSet = element["settings"],
     gFigCont = `<img src="${gFigURL}">
   <figcaption>
     <button>Close</button>
@@ -42,6 +43,10 @@ photos.forEach(element => {
         <tr>
           <th>Camera</th>
           <td>${gFigCam}</td>
+        </tr>
+        <tr>
+          <th>Settings</th>
+          <td>${gFigSet}</td>
         </tr>
       </table>
     </div>
