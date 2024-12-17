@@ -1,7 +1,9 @@
 // DOM and setup...
 
 const titles = document.querySelectorAll('.title'),
-  gFigs = document.getElementById('g');
+  gFigs = document.getElementById('gallery'),
+  g = document.getElementById('g'),
+  m = document.getElementById('m');
 
 var dateFormat = "en-AU";
 
@@ -23,7 +25,7 @@ if (urlParams.has('dt')) {
   insertParam('dt', dateFormat);
 }
 
-// Images...
+// Gallery...
 
 photos.forEach(element => {
   const gFig = document.createElement('figure'),
@@ -85,3 +87,5 @@ function closeAbout(id) {
   document.querySelector(`#${id} .g-fig-about`).style.display = "none";
   document.querySelector(`#${id} .g-fig-btns`).style.display = "block";
 }
+
+// Navigation...
