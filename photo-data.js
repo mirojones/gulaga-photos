@@ -1,4 +1,4 @@
-const photos = [
+var photos = [
   {
     "url": "images/fullres/bermagui-point_23-09-24.jpeg",
     "coords": "-36.4221452, 150.0747234",
