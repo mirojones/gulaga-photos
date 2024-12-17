@@ -6,7 +6,7 @@ header {
   text-align: center;
 }
 
-nav menu {
+nav menu li {
   list-style-type: none;
   display: inline;
 }
