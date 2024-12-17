@@ -17,7 +17,8 @@ photos.forEach(element => {
   const gFig = document.createElement('figure'),
     gFigURL = element["url"],
     gFigAdr = element["address"],
-    gFigDT = new Date(element["datetime"]).toString(),
+    gFigDT = element["datetime"],
+    gFigDTformat = new Date(gFigDT).toString(),
     gFigCont = `<img src="${gFigURL}">
   <figcaption>
     <button>Close</button>
@@ -35,7 +36,7 @@ photos.forEach(element => {
         </tr>
         <tr>
           <th>Date &amp; time</th>
-          <td>${gFigDT}</td>
+          <td>${gFigDTformat}</td>
         </tr>
       </table>
     </div>
