@@ -71,11 +71,11 @@ photos.forEach(element => {
 
 function openCap(id) {
   document.querySelector(`#${id} figcaption`).style.display = "block";
-  document.querySelector(`#${id} button`).style.display = "none";
+  document.querySelector(`#${id} img`).style.display = "none";
 }
 function closeCap(id) {
   document.querySelector(`#${id} figcaption`).style.display = "none";
-  document.querySelector(`#${id} button`).style.display = "block";
+  document.querySelector(`#${id} img`).style.display = "block";
 }
 function openAbout(id) {
   document.querySelector(`#${id} .g-fig-about`).style.display = "block";
