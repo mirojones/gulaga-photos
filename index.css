@@ -6,8 +6,10 @@ header {
   text-align: center;
 }
 
-nav menu li {
+nav menu {
   list-style-type: none;
+}
+nav menu li {
   display: inline;
 }
 
