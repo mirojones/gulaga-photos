@@ -71,7 +71,13 @@ photos.forEach(element => {
   gFig.setAttribute("id", gFigId);
 });
 
+function closeAllCap() {
+  photos.forEach(element => {
+    closeCap(`${element["id"]}`);
+  });
+}
 function openCap(id) {
+  closeAllCap
   document.querySelector(`#${id} figcaption`).style.display = "block";
   document.querySelector(`#${id} > button`).style.display = "none";
 }
