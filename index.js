@@ -6,7 +6,7 @@ const titles = document.querySelectorAll('.title'),
 var dateFormat = "en-AU";
 
 // Photo counter and title...
-var noOfPhotos = 1;
+var noOfPhotos = photos.length;
 
 titles.forEach(title => {
   title.textContent = noOfPhotos + ' Views of Gulaga';
