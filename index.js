@@ -36,14 +36,14 @@ photos.forEach(element => {
     gFigSet = element["settings"] ? element["settings"] : "unknown";
   const gFigCont = `<button onclick="openCap('${gFigId}')"><img src="${gFigURL}"></button>
   <figcaption style="display:none;">
-    <button onclick="closeCap('${gFigId}')"><i class="ico-close" role="img"></i></button>
+    <button onclick="closeCap('${gFigId}')"><i class="ico ico-close" role="img"></i></button>
     <menu class="g-fig-btns">
       <li><a href="${gFigURL}" target="_blank">Open in full</a></li>
       <li><a href="${gFigURL}" download>Download</a></li>
       <li><button onclick="openAbout('${gFigId}')">About &amp; licence</button></li>
     </menu>
     <div class="g-fig-about" style="display:none;">
-      <button onclick="closeAbout('${gFigId}')">Back</button>
+      <button onclick="closeAbout('${gFigId}')"><i class="ico ico-back" role="img"></i></button>
       <table>
         <tr>
           <th>Location</th>
