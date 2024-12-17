@@ -16,6 +16,8 @@ titles.forEach(title => {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
+
+urlParams.append("dt", "en-AU");
 if (urlParams.has('dt')) {
   dateFormat = urlParams.get('dt');
 }
