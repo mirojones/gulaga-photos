@@ -17,6 +17,11 @@ nav menu li {
   display: inline;
 }
 
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .ico {
   font-style: normal;
 }
