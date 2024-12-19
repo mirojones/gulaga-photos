@@ -30,8 +30,8 @@
     <script src="photo-data.js"></script>
     <script src="index.js"></script>
     <script>
-      var year = new Date().getFullYear();
-      if(year!=2024){year = "2024–" + year}
+      var year = new Date().getFullYear(), start = 2024;
+      if(year!=start){year = start + "–" + year}
       document.getElementById("year").textContent = year;
     </script>
   </body>
