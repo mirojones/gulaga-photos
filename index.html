@@ -25,9 +25,14 @@
       </div>
     </main>
     <footer>
-      <p>Site &amp; source code &copy; Miro Jones <time onload="this.textContent = new Date().getFullYear();"></time></p>
+      <p>Site &amp; source code &copy; Miro Jones <time id="year"></time></p>
     </footer>
     <script src="photo-data.js"></script>
     <script src="index.js"></script>
+    <script>
+      var year = new Date().getFullYear();
+      if(year!=2024){year = "2024–" + year}
+      document.getElementById("year").textContent = year;
+    </script>
   </body>
 </html>
