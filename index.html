@@ -30,7 +30,7 @@
     <script src="photo-data.js"></script>
     <script src="index.js"></script>
     <script>
-      var yearNow = new Date().getFullYear(), yearStart = 2023;
+      let yearNow = new Date().getFullYear(), yearStart = 2023;
       if(yearNow!=yearStart){year = yearStart + "–" + yearNow}
       document.getElementById("year").textContent = yearNow;
     </script>
