@@ -73,6 +73,7 @@ photos.forEach(element => {
 
 function closeAllCap() {
   photos.forEach(element => {
+    closeAbout("fig" + element["id"]);
     closeCap("fig" + element["id"]);
   });
 }
