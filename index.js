@@ -104,3 +104,7 @@ function openM() {
   g.style.display = "none";
   m.style.display = "block";
 }
+
+// Copyright year
+var yearNow=new Date().getFullYear(),yearStart = 2024;if(yearNow!=yearStart){yearNow = yearStart + "–" + yearNow}
+document.getElementById("year").textContent = yearNow;
