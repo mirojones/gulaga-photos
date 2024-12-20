@@ -11,6 +11,7 @@ body {
   padding: 100px 50px 50px;
   font-size: 1rem;
   background-color: hsl(var(--th) 52 95);
+  overflow: hidden;
 }
 
 header, nav {
