@@ -10,6 +10,7 @@ body, body * {
 body {
   max-width: 1500px;
   margin: auto;
+  padding: 50px;
   font-size: 1rem;
   background-color: hsl(var(--th) 52 95);
 }
