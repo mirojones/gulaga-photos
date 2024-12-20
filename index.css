@@ -15,11 +15,6 @@ body {
   background-color: hsl(var(--th) 52 95);
 }
 
-h1 {
-  display: inline-block;
-  margin: 50px 0 0;
-}
-
 header, nav {
   text-align: center;
 }
