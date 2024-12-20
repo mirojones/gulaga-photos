@@ -20,6 +20,9 @@ const urlParams = new URLSearchParams(queryString);
 if (urlParams.has('dt')) {
   dateFormat = urlParams.get('dt');
 }
+if (urlParams.has('theme') {
+  // !!!,!!!!
+}
 
 // Gallery...
 photos.forEach(element => {
