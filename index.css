@@ -16,14 +16,10 @@ body {
   grid-template: 400px 50px auto / 1fr;
 }
 
-header {
+header, nav {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-header, nav {
-  text-align: center;
 }
 
 nav menu {
