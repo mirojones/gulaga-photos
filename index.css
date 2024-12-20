@@ -23,6 +23,10 @@ nav menu li {
   grid-auto-flow: row dense;
   width: 100%;
 }
+figure {
+  width: 25vw;
+  height: 25vh;
+}
 
 .ico {
   font-style: normal;
