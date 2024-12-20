@@ -25,7 +25,7 @@ nav menu li {
 figure {
   aspect-ratio: 1;
 }
-.photo img {
+.photo, img {
   /*width: 0;
   height: 0;
   min-height: 100%;
