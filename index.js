@@ -1,4 +1,5 @@
 // DOM and setup...
+
 const titles = document.querySelectorAll('.title'),
   gFigs = document.getElementById('gallery'),
   g = document.getElementById('g'),
@@ -25,7 +26,6 @@ if (urlParams.has('theme') {
   themeCSS.textContent = `:root{--th:${urlParams.get('theme')`;
 }
 
-// Gallery...
 photos.forEach(element => {
   const gFig = document.createElement('figure'),
     gFigId = "fig" + element["id"],
