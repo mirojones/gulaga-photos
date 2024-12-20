@@ -1,11 +1,12 @@
 // DOM and setup...
-
 const titles = document.querySelectorAll('.title'),
   gFigs = document.getElementById('gallery'),
   g = document.getElementById('g'),
   m = document.getElementById('m');
 
 var dateFormat = "en-AU";
+
+nav.style.background = `url(${photos[photos.length * Math.random() | 0]["url"]})`;
 
 // Photo counter and title...
 var noOfPhotos = photos.length;
@@ -26,7 +27,6 @@ if (urlParams.has('dt')) {
 }
 
 // Gallery...
-
 photos.forEach(element => {
   const gFig = document.createElement('figure'),
     gFigId = "fig" + element["id"],
