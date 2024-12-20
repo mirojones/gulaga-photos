@@ -24,7 +24,7 @@ if (urlParams.has('dt')) {
 }
 
 if (urlParams.has('th')) {
-  themeCSS.textContent = `:root{--th:${urlParams.get('th')};}`;
+  thCSS.textContent = `:root{--th:${urlParams.get('th')};}`;
 }
 
 photos.forEach(element => {
