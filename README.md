@@ -1,3 +1,9 @@
+## Just in case...
+Here's JS for selecting a random photo and putting it as the bg image of the `<header>`:
+```javascript
+document.querySelector("header").style.backgroundImage = `url(${photos[photos.length * Math.random() | 0]["url"]})`;
+```
+
 ## Sources:
 ### Add URL parameter function
 From [https://stackoverflow.com/a/487049](https://stackoverflow.com/a/487049)
