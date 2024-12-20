@@ -8,7 +8,7 @@ body, body * {
 }
 
 body {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: auto;
   font-size: 1rem;
   background-color: hsl(var(--th) 52 95);
