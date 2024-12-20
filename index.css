@@ -42,6 +42,10 @@ figure {
   object-fit: cover;
 }
 
+figcaption {
+  background-color: hsl(var(--th) 55 55);
+}
+
 button {
   background-color: transparent;
   border-width: 0;
