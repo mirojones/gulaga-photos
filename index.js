@@ -14,14 +14,11 @@ titles.forEach(title => {
 });
 
 // Query parameters...
-/* add parameter to url */function insertParam(t,i){t=encodeURIComponent(t),i=encodeURIComponent(i);var n=document.location.search.substr(1).split("&");let e=0;for(;e<n.length;e++)if(n[e].startsWith(t+"=")){let l=n[e].split("=");l[1]=i,n[e]=l.join("=");break}e>=n.length&&(n[n.length]=[t,i].join("="));let a=n.join("&");document.location.search=a}
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
 if (urlParams.has('dt')) {
   dateFormat = urlParams.get('dt');
-} else {
-  insertParam('dt', dateFormat);
 }
 
 // Gallery...
