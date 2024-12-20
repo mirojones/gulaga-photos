@@ -4,7 +4,7 @@ const titles = document.querySelectorAll('.title'),
   gFigs = document.getElementById('gallery'),
   g = document.getElementById('g'),
   m = document.getElementById('m'),
-  themeCSS = document.getElementById("theme");
+  thCSS = document.getElementById("theme");
 
 var dateFormat = "en-AU";
 
