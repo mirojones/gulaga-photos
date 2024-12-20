@@ -15,6 +15,7 @@ body {
 
 header {
   background-size: cover;
+  height: 500px;
 }
 
 header, nav {
