@@ -11,6 +11,7 @@ body {
   max-width: 1000px;
   margin: auto;
   font-size: 1rem;
+  background-color: hue(var(--th) 52 95);
 }
 
 header, nav {
