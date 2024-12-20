@@ -25,6 +25,13 @@ nav menu li {
 figure {
   aspect-ratio: 1;
 }
+.photo {
+  min-height: 100%;
+  min-width: 100%;
+  /* */
+  display: block;
+  object-fit: cover; /* avoid distortion*/
+}
 
 .ico {
   font-style: normal;
