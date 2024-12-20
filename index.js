@@ -6,7 +6,7 @@ const titles = document.querySelectorAll('.title'),
 
 var dateFormat = "en-AU";
 
-document.querySelector("header").style.background = `url(${photos[photos.length * Math.random() | 0]["url"]})`;
+document.querySelector("header").style.backgroundImage = `url(${photos[photos.length * Math.random() | 0]["url"]})`;
 
 // Photo counter and title...
 var noOfPhotos = photos.length;
