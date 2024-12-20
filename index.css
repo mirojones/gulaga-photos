@@ -5,6 +5,9 @@ body, body * {
   padding: 0;
   color: #000;
   font-family: "Noto Sans", sans-serif;
+}
+
+body {
   font-size: 1rem;
 }
 
