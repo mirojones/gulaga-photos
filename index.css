@@ -43,7 +43,7 @@ figure {
 }
 
 figcaption {
-  background-color: hsl(var(--th) 55 55);
+  background-color: hsl(var(--th) 55 75);
   width: 100%;
   height: 100%;
 }
