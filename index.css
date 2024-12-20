@@ -13,9 +13,8 @@ body {
   background-color: hsl(var(--th) 52 95);
 }
 
-header {
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+.hdr-nav-sep {
+  height: 100px;
 }
 
 header, nav {
