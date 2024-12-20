@@ -21,6 +21,7 @@ nav menu li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-flow: row dense;
+  width: 100%;
 }
 
 .ico {
