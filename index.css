@@ -15,6 +15,10 @@ body {
   background-color: hsl(var(--th) 52 95);
 }
 
+header {
+  margin-top: 50px;
+}
+
 header, nav {
   text-align: center;
 }
@@ -22,6 +26,7 @@ header, nav {
 nav menu {
   list-style-type: none;
 }
+
 nav menu li {
   display: inline;
 }
@@ -31,9 +36,11 @@ nav menu li {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 15px;
 }
+
 figure {
   aspect-ratio: 1;
 }
+
 figure > button, img {
   width: 0;
   height: 0;
