@@ -3,7 +3,6 @@ html, body, body *:not(script) {
   padding: 0;
   color: hsl(var(--th) 100 10);
   font-family: "Noto Sans", sans-serif;
-  border: 1px solid hsl(var(--th) 100 10);
 }
 
 body {
