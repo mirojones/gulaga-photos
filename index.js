@@ -2,7 +2,8 @@
 const titles = document.querySelectorAll('.title'),
   gFigs = document.getElementById('gallery'),
   g = document.getElementById('g'),
-  m = document.getElementById('m');
+  m = document.getElementById('m'),
+  themeCSS = document.getElementById("theme");
 
 var dateFormat = "en-AU";
 
@@ -21,7 +22,7 @@ if (urlParams.has('dt')) {
   dateFormat = urlParams.get('dt');
 }
 if (urlParams.has('theme') {
-  // !!!,!!!!
+  themeCSS.textContent = `:root{--th:${urlParams.get('theme')`;
 }
 
 // Gallery...
