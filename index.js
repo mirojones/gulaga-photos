@@ -22,8 +22,9 @@ const urlParams = new URLSearchParams(queryString);
 if (urlParams.has('dt')) {
   dateFormat = urlParams.get('dt');
 }
-if (urlParams.has('theme') {
-  themeCSS.textContent = `:root{--th:${urlParams.get('theme')`;
+
+if (urlParams.has('th')) {
+  themeCSS.textContent = `:root{--th:${urlParams.get('th')};}`;
 }
 
 photos.forEach(element => {
