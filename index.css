@@ -10,7 +10,7 @@ html, body, body *:not(script) {
 body {
   max-width: 1500px;
   margin: auto;
-  padding: 0 50px 50px;
+  padding: 100px 50px 50px;
   font-size: 1rem;
   background-color: hsl(var(--th) 52 95);
 }
