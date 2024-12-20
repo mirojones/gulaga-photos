@@ -34,6 +34,11 @@ figure {
   object-fit: cover;
 }
 
+button {
+  background-color: transparent;
+  border-radius: 0;
+}
+
 .ico {
   font-style: normal;
 }
