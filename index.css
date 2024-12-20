@@ -23,9 +23,7 @@ nav menu li {
   grid-gap: 5px;
 }
 figure {
-  width: 25vw;
-  height: 25vw;
-  overflow: hidden;
+  aspect-ratio: 1;
 }
 
 .ico {
