@@ -36,7 +36,7 @@ photos.forEach(element => {
     gFigDTformat = new Date(gFigDT).toLocaleString(dateFormat),
     gFigCam = element["camera"],
     gFigSet = element["settings"] ? element["settings"] : "unknown";
-  const gFigCont = `<button onclick="openCap('${gFigId}')" class="photo"><img src="${gFigURL}"></button>
+  const gFigCont = `<img src="${gFigURL}" onclick="openCap('${gFigId}')" class="photo">
   <figcaption style="display:none;">
     <button onclick="closeCap('${gFigId}')"><i class="ico ico-close" role="img"></i></button>
     <menu class="g-fig-btns">
