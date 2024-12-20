@@ -26,6 +26,7 @@ nav menu li {
 figure {
   width: 25vw;
   height: 25vh;
+  overflow: hidden;
 }
 
 .ico {
