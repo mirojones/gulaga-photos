@@ -26,10 +26,10 @@ figure {
   aspect-ratio: 1;
 }
 .photo, img {
-  /*width: 0;
+  width: 0;
   height: 0;
   min-height: 100%;
-  min-width: 100%;*/
+  min-width: 100%;
   display: block;
   object-fit: cover;
 }
