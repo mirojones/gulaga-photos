@@ -15,7 +15,7 @@ body {
   background-color: hsl(var(--th) 52 95);
 }
 
-nav {
+header {
   margin-top: 100px;
 }
 
