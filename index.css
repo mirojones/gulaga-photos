@@ -3,7 +3,7 @@
 body, body * {
   margin: 0;
   padding: 0;
-  color: #000;
+  color: hsl(var(--th) 100 10);
   font-family: "Noto Sans", sans-serif;
 }
 
