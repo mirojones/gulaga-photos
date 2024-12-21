@@ -12,7 +12,7 @@ body {
   font-size: 1rem;
   background-color: hsl(var(--th) 52 95);
   display: grid;
-  grid-template: 400px 50px auto / 1fr;
+  grid-template: 400px auto auto auto / 1fr;
 }
 
 header, nav {
