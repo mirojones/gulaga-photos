@@ -55,6 +55,7 @@ figcaption {
 }
 
 button {
+  font-size: 1rem;
   background-color: transparent;
   border-width: 0;
 }
