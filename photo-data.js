@@ -78,6 +78,5 @@ var photos = [
     "address": "Sunset Point, Bermagui",
     "datetime": "2024-09-23T17:52:00+10:00",
     "camera": "Samsung Galaxy",
-    "settings": "default"
   }
 ];
