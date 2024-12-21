@@ -42,6 +42,8 @@ nav menu li {
 }
 .gulaga-outline path {
   stroke: hsl(var(--th) 100 10);
+  fill:none;
+  stroke-miterlimit:10;
 }
 
 figure {
