@@ -35,6 +35,10 @@ nav menu li {
   gap: 15px;
 }
 
+.gulaga-outline {
+  stroke: hsl(var(--th) 100 10);
+}
+
 figure {
   aspect-ratio: 1;
 }
